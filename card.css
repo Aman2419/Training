@@ -1,0 +1,54 @@
+body{
+    width: 457px; 
+    height: 138px; 
+    border:solid blue;
+    display: flex;
+    justify-content: start;
+    padding: 4px;
+}
+.AmanP{
+    width: 130px;
+    height: 130px;
+}
+.te{
+    margin-left:14px;
+    color:#000000;
+    font-weight:bold;
+    font-family: Roboto;
+    font-size: 20px;
+
+}
+.w{
+    margin-top: 14px;
+}
+.Work{
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+.icon{
+    display: flex;
+    margin-top: 24px;
+}
+.speech{
+
+    width:20px;
+    height:20px;
+}
+h6{
+    margin-top: 0px;
+    margin-left:14px;
+    color:#858991;
+    font-weight:bold;
+    font-family: Roboto;
+    font-size: 15px;
+}
+.ret{
+    margin-left:24px;
+    width:20px;
+    height:20px;
+}
+.het{
+    margin-left:24px;
+    width:20px;
+    height:20px;
+}

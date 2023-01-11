@@ -1,0 +1,51 @@
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 100%;
+}
+body{
+    margin: 10px;
+   color: white;
+   align-items: center;
+   background-color: bisque;
+}
+.header {
+    background-image: linear-gradient(to bottom right, #3317ce, #9077ff);
+    grid-column: 1 / -1;  
+    border: 1px solid black;
+}
+.sidebar {
+    background-image: linear-gradient(#36f7f7, rgb(69, 204, 209));
+    grid-row: 2 /4;
+    border: 1px solid black;
+}
+.content-1 {
+    background-image: linear-gradient(45deg, #5ed1c8, rgb(37, 156, 172));
+    grid-column: 2/-1;
+    border: 1px solid black;
+}
+.content-2 {
+    background-image: linear-gradient(45deg, #5ed1c8, rgb(37, 156, 172));
+    grid-column: 2/3;
+    border: 1px solid black;
+}
+.content-3 {
+    background-image: linear-gradient(45deg, #5ed1c8, rgb(37, 156, 172));
+    grid-column: 3/-1;
+    border: 1px solid black;
+}
+.footer {
+    background-image: linear-gradient(to bottom right, #3317ce, #9077ff);
+    grid-column: 1 / -1;
+    border: 1px solid black;
+}
