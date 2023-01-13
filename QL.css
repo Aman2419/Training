@@ -1,141 +1,115 @@
-body{
-    margin: 0;
-    background: #EEEEEE;
-    font-family: "My Custom Font";
+body {
+  margin: 0;
+  background: #EEEEEE;
+  font-family: "My Custom Font";
 }
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-    margin-left: auto;
-    margin-right:auto;
-    margin-top: 50px;
-    background-color: white;
-    border-top: 4px solid #3AC7EC;
+body ul {
+  overflow: hidden;
+  background-color: #333;
+  border-bottom: 2px solid #3AC7EC;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 47px;
 }
-
-.container {
-    padding: 16px;
+body li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-
-.top-card{
-    display: flex; 
+body li {
+  float: left;
 }
-
-.text{
-    margin-left: 150px;
-    
+body li a:hover {
+  background-color: #111;
 }
-
-.enter{
-    border: 0px solid;
-    border-bottom: 1px solid grey;
-    width:90%;
-    margin-top: 20px;
+body .limg {
+  padding-top: 5px;
+  padding-left: 2px;
 }
-
-.IS{
-    margin-left: 30px;
+body .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: white;
+  border-top: 4px solid #3AC7EC;
 }
-
-.city{
-    margin-top: 20px;
-    width: 90%;
-    border: none;
-    border-bottom: 1px solid grey;
+body .card .container {
+  padding: 16px;
 }
-
-.un{
-    margin-top: 30px;
+body .card .container .top-card {
+  display: flex;
 }
-
-button {
-    background-color: #3FD28B;
-    color: black;
-    padding: 14px 20px;
-    margin-left: 50%;
-    border: 2px solid #3FD28B ;
-    cursor: pointer;
-    width: 50%;
-    box-shadow: 0px 3px 5px #0000003D;
-    font-size: small;
-} 
-
-button:hover {
-    opacity: 0.8;
+body .card .container .top-card .text {
+  margin-left: 150px;
 }
-
-.forgot{
-    font-size: smaller;
-    margin-left: 72%;
-    color:#3FD28B;
+body .card .container .IS {
+  margin-left: 30px;
 }
-  
-ul {
-    overflow: hidden;
-    background-color: #333;
-    border-bottom: 2px solid #3AC7EC;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 47px;
+body .card .container .city {
+  margin-top: 20px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid grey;
 }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  .limg{
-    padding-top: 5px;
-    padding-left: 2px;
-  }
-.FA{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 1%;
+body .card .container .enter {
+  border: 0px solid;
+  border-bottom: 1px solid grey;
+  width: 90%;
+  margin-top: 20px;
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #cfcece;
-    border: 1px solid #EEEEEE;
-    text-align: center;
-    height: 35px;
-    display: flex;
-    justify-content: center;
+body .card .container .forgot {
+  font-size: smaller;
+  margin-left: 72%;
+  color: #3FD28B;
 }
-.FI{
-    width: 64px;
-    height: 20px;
-    margin-top: 10px;
+body .FA {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 1%;
 }
-.FT{
-    font-size: small;
-    color:#616161;
-    margin-left: 10px;
+body .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cfcece;
+  border: 1px solid #EEEEEE;
+  text-align: center;
+  height: 35px;
+  display: flex;
+  justify-content: center;
 }
-
-@font-face {
-    font-family: "My Custom Font";
-    src: url(C:\Users\Aman\Desktop\zeus\Test\Quicksand-VariableFont_wght.ttf) format("truetype");
+body .footer .FI {
+  width: 64px;
+  height: 20px;
+  margin-top: 10px;
 }
-
-
-
-
-
-
+body .footer .FT {
+  font-size: small;
+  color: #616161;
+  margin-left: 10px;
+}
+body button {
+  background-color: #3FD28B;
+  color: black;
+  padding: 14px 20px;
+  margin-left: 25%;
+  border: 2px solid #3FD28B;
+  cursor: pointer;
+  width: 50%;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2392156863);
+  font-size: small;
+}
+body button:hover {
+  opacity: 0.8;
+}
+body .un {
+  margin-top: 30px;
+}/*# sourceMappingURL=QL.css.map */
